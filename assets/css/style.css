@@ -121,3 +121,49 @@ select {
 .yellowButton {
     background: yellow;
 }
+
+/* ===========================
+    2_2
+===========================*/
+
+.exercise2_2 {
+    background-color: lightskyblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.exercise2_2 p.largeKeyCode {
+    background-color: lightslategray;
+    height: 100px;
+    width: 100%;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.exercise2_2 .keyArea {
+
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.exercise2_2 .keyArea article {
+    margin: 10px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.exercise2_2 .keyArea article p {
+    background-color: lavender;
+    height: 25px;
+}
+
+.exercise2_2 .keyArea article p:nth-of-type(2) {
+    background-color: lavenderblush;
+}

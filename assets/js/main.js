@@ -26,7 +26,6 @@ itemSelector.addEventListener("change", () => {
 // ==============================
 
 let appBg = document.getElementById("backgroundColor");
-console.log(appBg)
 
 function turnGray() {
     appBg.classList.add("grayButton");
@@ -55,3 +54,29 @@ function turnYellow() {
     appBg.classList.remove("blueButton")
     appBg.classList.add("yellowButton")
 }
+
+// ==============================
+//       2_2
+// ==============================
+
+let largeKeyCode = document.querySelector(".largeKeyCode");
+
+let keyWrite = document.querySelector("#keyWrite");
+console.log(keyWrite)
+
+let keyCodeWrite = document.querySelector("#keyCodeWrite");
+console.log(keyCodeWrite)
+
+let codeWrite = document.querySelector("#codeWrite");
+console.log(codeWrite)
+
+window.addEventListener("keydown", (event) => {
+    let key = event.key;
+    let keyCode = event.which;
+    let code = event.code;
+
+    largeKeyCode.innerHTML = keyCode;
+    keyWrite.innerHTML = key;
+    keyCodeWrite.innerHTML = keyCode;
+    codeWrite.innerHTML = code;
+})
