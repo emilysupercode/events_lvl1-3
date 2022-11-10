@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events lvl 1-3</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <main>
+        <h2>1_5</h2>
+        <div class="exercise1_5">
+            <section>
+                <h3> Klickzähler </h3>
+                <button id="clickMe" onclick="counterFunction()">Click me: 0</button>
+                <h5>Gute Praxis: kein JavaScript-Code im HTML</h5>
+            </section>
+        </div>
+        <hr>
+        <h2>1_6</h2>
+        <section class="exercise1_6">
+
+            <select id="my-select">
+                <option value="" disabled selected>Select One</option>
+                <option value="select1">Select 1</option>
+                <option value="select2">Select 2</option>
+                <option value="select3">Select 3</option>
+                <option value="select4">Select 4</option>
+                <option value="select5">Select 5</option>
+            </select>
+            <p id="option-selected"></p>
+        </section>
+        <hr>
+        <h2>2_1</h2>
+        <div class="exercise2_1_bg">
+            <section class="exercise2_1" id="backgroundColor">
+                <ul id="umschalter">
+                    <li id="grauTaste" onclick="turnGray()"></li>
+                    <li id="weissTaste" onclick="turnWhite()"></li>
+                    <li id="blauTaste" onclick="turnBlue()"></li>
+                    <li id="gelbTaste" onclick="turnYellow()"></li>
+                </ul>
+                <h1>Farbschema Umschalter</h1>
+                <p>Versuche auf eine der obigen Farben zu klicken, um die Farben auf dieser Seite zu ändern! </p>
+            </section>
+        </div>
+    </main>
+
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
