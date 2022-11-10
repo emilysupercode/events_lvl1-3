@@ -80,3 +80,7 @@ window.addEventListener("keydown", (event) => {
     keyCodeWrite.innerHTML = keyCode;
     codeWrite.innerHTML = code;
 })
+
+// ==============================
+//       3_1
+// ==============================

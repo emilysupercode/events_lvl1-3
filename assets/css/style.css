@@ -167,3 +167,28 @@ select {
 .exercise2_2 .keyArea article p:nth-of-type(2) {
     background-color: lavenderblush;
 }
+
+/* ===========================
+    3_1
+===========================*/
+
+.exercise3_1 {
+    background-color: orange;
+    height: 75vh;
+}
+
+.exercise3_1 div {
+    padding: 20px 5px;
+}
+
+.exercise3_1 .slidersDiv {
+    width: 250px;
+}
+
+.exercise3_1 .slidersDiv input {
+    margin: 10px;
+}
+
+.exercise3_1 .slidersDiv label {
+    margin: 10px;
+}
