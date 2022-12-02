@@ -70,19 +70,19 @@
         <h2>3_1</h2>
         <h3>Meine dynamische Webseite</h3>
         <section class="exercise3_1">
-            <p class="exercise3_1_output"></p>
+            <p id="exercise3_1_output">test</p>
             <div class="buttonsDiv">
-                <button>Rosa</button>
-                <button>Lila</button>
-                <button>Orange</button>
+                <button onclick="changeBackground('pink')">Rosa</button>
+                <button onclick="changeBackground('purple')">Lila</button>
+                <button onclick="changeBackground('orange')">Orange</button>
             </div>
             <div class="slidersDiv">
-                <input type="range" min="1" max="255" value="50" class="slider" id="redRange"><label
-                    for="redRange">Red</label> <br>
-                <input type="range" min="1" max="255" value="50" class="slider" id="greenRange"><label
-                    for="greenRange">Green</label> <br>
-                <input type="range" min="1" max="255" value="50" class="slider" id="blueRange"><label
-                    for="blueRange">Blue</label>
+                <input type="range" min="1" max="255" value="50" class="slider" id="redRange"
+                    onchange="changeHandle()"><label for="redRange">Red</label> <br>
+                <input type="range" min="1" max="255" value="50" class="slider" id="greenRange"
+                    onchange="changeHandle()"><label for="greenRange">Green</label> <br>
+                <input type="range" min="1" max="255" value="50" class="slider" id="blueRange"
+                    onchange="changeHandle()"><label for="blueRange">Blue</label>
             </div>
         </section>
     </main>
